@@ -1,0 +1,24 @@
+[2.784s] Invoking command in '/home/sfw/project/ros2_ws/src/robox': PYTHONPATH=/home/sfw/project/ros2_ws/build/robox/prefix_override:/home/sfw/project/ros2_ws/install/robox/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robox build --build-base /home/sfw/project/ros2_ws/build/robox/build install --record /home/sfw/project/ros2_ws/build/robox/install.log --single-version-externally-managed install_data
+[3.862s] running egg_info
+[3.864s] writing ../../build/robox/robox.egg-info/PKG-INFO
+[3.865s] writing dependency_links to ../../build/robox/robox.egg-info/dependency_links.txt
+[3.866s] writing entry points to ../../build/robox/robox.egg-info/entry_points.txt
+[3.867s] writing requirements to ../../build/robox/robox.egg-info/requires.txt
+[3.868s] writing top-level names to ../../build/robox/robox.egg-info/top_level.txt
+[3.876s] reading manifest file '../../build/robox/robox.egg-info/SOURCES.txt'
+[3.880s] writing manifest file '../../build/robox/robox.egg-info/SOURCES.txt'
+[3.880s] running build
+[3.881s] running build_py
+[3.882s] copying robox/drive_node.py -> /home/sfw/project/ros2_ws/build/robox/build/lib/robox
+[3.883s] running install
+[3.884s] running install_lib
+[3.887s] copying /home/sfw/project/ros2_ws/build/robox/build/lib/robox/drive_node.py -> /home/sfw/project/ros2_ws/install/robox/lib/python3.10/site-packages/robox
+[3.890s] byte-compiling /home/sfw/project/ros2_ws/install/robox/lib/python3.10/site-packages/robox/drive_node.py to drive_node.cpython-310.pyc
+[3.894s] running install_data
+[3.895s] running install_egg_info
+[3.902s] removing '/home/sfw/project/ros2_ws/install/robox/lib/python3.10/site-packages/robox-0.0.0-py3.10.egg-info' (and everything under it)
+[3.904s] Copying ../../build/robox/robox.egg-info to /home/sfw/project/ros2_ws/install/robox/lib/python3.10/site-packages/robox-0.0.0-py3.10.egg-info
+[3.910s] running install_scripts
+[3.990s] Installing drive_node script to /home/sfw/project/ros2_ws/install/robox/lib/robox
+[3.991s] writing list of installed files to '/home/sfw/project/ros2_ws/build/robox/install.log'
+[4.113s] Invoked command in '/home/sfw/project/ros2_ws/src/robox' returned '0': PYTHONPATH=/home/sfw/project/ros2_ws/build/robox/prefix_override:/home/sfw/project/ros2_ws/install/robox/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robox build --build-base /home/sfw/project/ros2_ws/build/robox/build install --record /home/sfw/project/ros2_ws/build/robox/install.log --single-version-externally-managed install_data

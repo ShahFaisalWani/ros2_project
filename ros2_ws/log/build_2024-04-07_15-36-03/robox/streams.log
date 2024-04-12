@@ -1,0 +1,21 @@
+[2.731s] Invoking command in '/home/sfw/project/ros2_ws/build/robox': PYTHONPATH=/home/sfw/project/ros2_ws/build/robox/prefix_override:/home/sfw/project/ros2_ws/install/robox/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/sfw/project/ros2_ws/build/robox/build --no-deps symlink_data --force
+[4.011s] running develop
+[4.021s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.022s]   warnings.warn(
+[4.796s] running egg_info
+[4.797s] writing robox.egg-info/PKG-INFO
+[4.798s] writing dependency_links to robox.egg-info/dependency_links.txt
+[4.799s] writing entry points to robox.egg-info/entry_points.txt
+[4.799s] writing requirements to robox.egg-info/requires.txt
+[4.800s] writing top-level names to robox.egg-info/top_level.txt
+[4.808s] reading manifest file 'robox.egg-info/SOURCES.txt'
+[4.811s] writing manifest file 'robox.egg-info/SOURCES.txt'
+[4.817s] running build_ext
+[4.818s] Creating /home/sfw/project/ros2_ws/install/robox/lib/python3.10/site-packages/robox.egg-link (link to .)
+[4.821s] Installing drive_node script to /home/sfw/project/ros2_ws/install/robox/lib/robox
+[4.822s] 
+[4.823s] Installed /home/sfw/project/ros2_ws/build/robox
+[4.823s] running symlink_data
+[4.824s] symbolically linking /home/sfw/project/ros2_ws/build/robox/resource/robox -> /home/sfw/project/ros2_ws/install/robox/share/ament_index/resource_index/packages
+[4.825s] symbolically linking /home/sfw/project/ros2_ws/build/robox/package.xml -> /home/sfw/project/ros2_ws/install/robox/share/robox
+[4.978s] Invoked command in '/home/sfw/project/ros2_ws/build/robox' returned '0': PYTHONPATH=/home/sfw/project/ros2_ws/build/robox/prefix_override:/home/sfw/project/ros2_ws/install/robox/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/sfw/project/ros2_ws/build/robox/build --no-deps symlink_data --force

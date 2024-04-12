@@ -1,0 +1,20 @@
+[3.361s] Invoking command in '/home/sfw/project/ros2_ws/build/robox': PYTHONPATH=/home/sfw/project/ros2_ws/build/robox/prefix_override:/home/sfw/project/ros2_ws/install/robox/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/sfw/project/ros2_ws/build/robox/build --no-deps symlink_data
+[4.715s] running develop
+[4.727s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.728s]   warnings.warn(
+[5.587s] running egg_info
+[5.597s] writing robox.egg-info/PKG-INFO
+[5.602s] writing dependency_links to robox.egg-info/dependency_links.txt
+[5.605s] writing entry points to robox.egg-info/entry_points.txt
+[5.611s] writing requirements to robox.egg-info/requires.txt
+[5.615s] writing top-level names to robox.egg-info/top_level.txt
+[5.621s] reading manifest file 'robox.egg-info/SOURCES.txt'
+[5.628s] writing manifest file 'robox.egg-info/SOURCES.txt'
+[5.631s] running build_ext
+[5.632s] Creating /home/sfw/project/ros2_ws/install/robox/lib/python3.10/site-packages/robox.egg-link (link to .)
+[5.635s] Installing drive_node script to /home/sfw/project/ros2_ws/install/robox/lib/robox
+[5.636s] Installing key_input_node script to /home/sfw/project/ros2_ws/install/robox/lib/robox
+[5.638s] 
+[5.639s] Installed /home/sfw/project/ros2_ws/build/robox
+[5.641s] running symlink_data
+[5.771s] Invoked command in '/home/sfw/project/ros2_ws/build/robox' returned '0': PYTHONPATH=/home/sfw/project/ros2_ws/build/robox/prefix_override:/home/sfw/project/ros2_ws/install/robox/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/sfw/project/ros2_ws/build/robox/build --no-deps symlink_data

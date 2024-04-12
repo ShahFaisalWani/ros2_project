@@ -1,0 +1,21 @@
+[3.543s] Invoking command in '/home/sfw/project/ros2_ws/src/robox': PYTHONPATH=/home/sfw/project/ros2_ws/build/robox/prefix_override:/home/sfw/project/ros2_ws/install/robox/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robox build --build-base /home/sfw/project/ros2_ws/build/robox/build install --record /home/sfw/project/ros2_ws/build/robox/install.log --single-version-externally-managed install_data
+[4.992s] running egg_info
+[4.995s] writing ../../build/robox/robox.egg-info/PKG-INFO
+[4.998s] writing dependency_links to ../../build/robox/robox.egg-info/dependency_links.txt
+[5.000s] writing entry points to ../../build/robox/robox.egg-info/entry_points.txt
+[5.001s] writing requirements to ../../build/robox/robox.egg-info/requires.txt
+[5.002s] writing top-level names to ../../build/robox/robox.egg-info/top_level.txt
+[5.017s] reading manifest file '../../build/robox/robox.egg-info/SOURCES.txt'
+[5.022s] writing manifest file '../../build/robox/robox.egg-info/SOURCES.txt'
+[5.024s] running build
+[5.024s] running build_py
+[5.027s] running install
+[5.029s] running install_lib
+[5.035s] running install_data
+[5.037s] running install_egg_info
+[5.047s] removing '/home/sfw/project/ros2_ws/install/robox/lib/python3.10/site-packages/robox-0.0.0-py3.10.egg-info' (and everything under it)
+[5.050s] Copying ../../build/robox/robox.egg-info to /home/sfw/project/ros2_ws/install/robox/lib/python3.10/site-packages/robox-0.0.0-py3.10.egg-info
+[5.058s] running install_scripts
+[5.159s] Installing drive_node script to /home/sfw/project/ros2_ws/install/robox/lib/robox
+[5.161s] writing list of installed files to '/home/sfw/project/ros2_ws/build/robox/install.log'
+[5.312s] Invoked command in '/home/sfw/project/ros2_ws/src/robox' returned '0': PYTHONPATH=/home/sfw/project/ros2_ws/build/robox/prefix_override:/home/sfw/project/ros2_ws/install/robox/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robox build --build-base /home/sfw/project/ros2_ws/build/robox/build install --record /home/sfw/project/ros2_ws/build/robox/install.log --single-version-externally-managed install_data
