@@ -1,0 +1,25 @@
+[3.523s] Invoking command in '/home/sfw/project/robox_ws/build/robox': PYTHONPATH=/home/sfw/project/robox_ws/build/robox/prefix_override:/home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/sfw/project/robox_ws/build/robox/build --no-deps symlink_data
+[5.086s] running develop
+[5.088s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.088s]   warnings.warn(
+[6.245s] running egg_info
+[6.250s] writing robox.egg-info/PKG-INFO
+[6.255s] writing dependency_links to robox.egg-info/dependency_links.txt
+[6.255s] writing entry points to robox.egg-info/entry_points.txt
+[6.256s] writing requirements to robox.egg-info/requires.txt
+[6.256s] writing top-level names to robox.egg-info/top_level.txt
+[6.265s] reading manifest file 'robox.egg-info/SOURCES.txt'
+[6.269s] writing manifest file 'robox.egg-info/SOURCES.txt'
+[6.277s] running build_ext
+[6.277s] Creating /home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages/robox.egg-link (link to .)
+[6.282s] Installing drive_node script to /home/sfw/project/robox_ws/install/robox/lib/robox
+[6.283s] Installing dynamic_transform script to /home/sfw/project/robox_ws/install/robox/lib/robox
+[6.285s] Installing encoder_node script to /home/sfw/project/robox_ws/install/robox/lib/robox
+[6.288s] Installing key_input_node script to /home/sfw/project/robox_ws/install/robox/lib/robox
+[6.288s] Installing lidar_node script to /home/sfw/project/robox_ws/install/robox/lib/robox
+[6.291s] 
+[6.294s] Installed /home/sfw/project/robox_ws/build/robox
+[6.296s] running symlink_data
+[6.297s] symbolically linking /home/sfw/project/robox_ws/build/robox/launch/launch_robot.launch.py -> /home/sfw/project/robox_ws/install/robox/share/robox/launch
+[6.301s] symbolically linking /home/sfw/project/robox_ws/build/robox/config/my_controllers.yaml -> /home/sfw/project/robox_ws/install/robox/share/robox/config
+[6.476s] Invoked command in '/home/sfw/project/robox_ws/build/robox' returned '0': PYTHONPATH=/home/sfw/project/robox_ws/build/robox/prefix_override:/home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/sfw/project/robox_ws/build/robox/build --no-deps symlink_data

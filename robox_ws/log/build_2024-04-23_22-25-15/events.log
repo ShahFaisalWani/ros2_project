@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.001080] (robox) JobQueued: {'identifier': 'robox', 'dependencies': OrderedDict()}
+[0.002024] (robox) JobStarted: {'identifier': 'robox'}
+[0.099159] (-) TimerEvent: {}
+[0.200085] (-) TimerEvent: {}
+[0.302592] (-) TimerEvent: {}
+[0.408289] (-) TimerEvent: {}
+[0.513990] (-) TimerEvent: {}
+[0.614901] (-) TimerEvent: {}
+[0.718000] (-) TimerEvent: {}
+[0.818788] (-) TimerEvent: {}
+[0.921139] (-) TimerEvent: {}
+[1.022858] (-) TimerEvent: {}
+[1.123555] (-) TimerEvent: {}
+[1.224194] (-) TimerEvent: {}
+[1.324826] (-) TimerEvent: {}
+[1.425527] (-) TimerEvent: {}
+[1.526287] (-) TimerEvent: {}
+[1.627035] (-) TimerEvent: {}
+[1.727956] (-) TimerEvent: {}
+[1.828784] (-) TimerEvent: {}
+[1.929479] (-) TimerEvent: {}
+[2.030216] (-) TimerEvent: {}
+[2.130965] (-) TimerEvent: {}
+[2.231589] (-) TimerEvent: {}
+[2.332359] (-) TimerEvent: {}
+[2.433381] (-) TimerEvent: {}
+[2.534321] (-) TimerEvent: {}
+[2.635004] (-) TimerEvent: {}
+[2.735694] (-) TimerEvent: {}
+[2.836365] (-) TimerEvent: {}
+[2.937095] (-) TimerEvent: {}
+[3.037826] (-) TimerEvent: {}
+[3.138538] (-) TimerEvent: {}
+[3.239191] (-) TimerEvent: {}
+[3.339956] (-) TimerEvent: {}
+[3.440795] (-) TimerEvent: {}
+[3.520688] (robox) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/sfw/project/robox_ws/build/robox/build', '--no-deps', 'symlink_data'], 'cwd': '/home/sfw/project/robox_ws/build/robox', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sfw', 'SSH_CLIENT': '192.168.1.11 33960 22', 'LC_TIME': 'th_TH.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/sfw/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/sfw/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/sfw', 'TERM_PROGRAM_VERSION': '1.88.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b742288b-3d6b-4d7c-9373-b7fc6542557a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sfw/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'th_TH.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/sfw/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/node', 'ROS_IP': '192.168.1.12', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/sfw/project/robox_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sfw', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/sfw/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/remote-cli:/home/sfw/.local/bin:/opt/ros/humble/bin:/home/sfw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sfw/.local/bin:/home/sfw/.local/bin', 'LC_ADDRESS': 'th_TH.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'ROS_DOMAIN': '0', 'LC_TELEPHONE': 'th_TH.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-577015459a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/sfw/project/robox_ws/install/robox:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sfw/project/robox_ws/build/robox', 'SSH_CONNECTION': '192.168.1.11 33960 192.168.1.12 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sfw/project/robox_ws/build/robox/prefix_override:/home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages:/home/sfw/project/robox_ws/build/robox:/home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1'}, 'shell': False}
+[3.541007] (-) TimerEvent: {}
+[3.642434] (-) TimerEvent: {}
+[3.743708] (-) TimerEvent: {}
+[3.844956] (-) TimerEvent: {}
+[3.945869] (-) TimerEvent: {}
+[4.046635] (-) TimerEvent: {}
+[4.147395] (-) TimerEvent: {}
+[4.249549] (-) TimerEvent: {}
+[4.350286] (-) TimerEvent: {}
+[4.451632] (-) TimerEvent: {}
+[4.552330] (-) TimerEvent: {}
+[4.653059] (-) TimerEvent: {}
+[4.753755] (-) TimerEvent: {}
+[4.854437] (-) TimerEvent: {}
+[4.955163] (-) TimerEvent: {}
+[5.056055] (-) TimerEvent: {}
+[5.087675] (robox) StdoutLine: {'line': b'running develop\n'}
+[5.089596] (robox) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.090360] (robox) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.156255] (-) TimerEvent: {}
+[5.257094] (-) TimerEvent: {}
+[5.358621] (-) TimerEvent: {}
+[5.459433] (-) TimerEvent: {}
+[5.560931] (-) TimerEvent: {}
+[5.661705] (-) TimerEvent: {}
+[5.762465] (-) TimerEvent: {}
+[5.863249] (-) TimerEvent: {}
+[5.964638] (-) TimerEvent: {}
+[6.065415] (-) TimerEvent: {}
+[6.166205] (-) TimerEvent: {}
+[6.246866] (robox) StdoutLine: {'line': b'running egg_info\n'}
+[6.250077] (robox) StdoutLine: {'line': b'writing robox.egg-info/PKG-INFO\n'}
+[6.255130] (robox) StdoutLine: {'line': b'writing dependency_links to robox.egg-info/dependency_links.txt\n'}
+[6.257405] (robox) StdoutLine: {'line': b'writing entry points to robox.egg-info/entry_points.txt\n'}
+[6.258004] (robox) StdoutLine: {'line': b'writing requirements to robox.egg-info/requires.txt\n'}
+[6.258494] (robox) StdoutLine: {'line': b'writing top-level names to robox.egg-info/top_level.txt\n'}
+[6.266571] (robox) StdoutLine: {'line': b"reading manifest file 'robox.egg-info/SOURCES.txt'\n"}
+[6.267289] (-) TimerEvent: {}
+[6.271394] (robox) StdoutLine: {'line': b"writing manifest file 'robox.egg-info/SOURCES.txt'\n"}
+[6.278043] (robox) StdoutLine: {'line': b'running build_ext\n'}
+[6.279274] (robox) StdoutLine: {'line': b'Creating /home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages/robox.egg-link (link to .)\n'}
+[6.283766] (robox) StdoutLine: {'line': b'Installing drive_node script to /home/sfw/project/robox_ws/install/robox/lib/robox\n'}
+[6.284883] (robox) StdoutLine: {'line': b'Installing dynamic_transform script to /home/sfw/project/robox_ws/install/robox/lib/robox\n'}
+[6.286923] (robox) StdoutLine: {'line': b'Installing encoder_node script to /home/sfw/project/robox_ws/install/robox/lib/robox\n'}
+[6.287592] (robox) StdoutLine: {'line': b'Installing key_input_node script to /home/sfw/project/robox_ws/install/robox/lib/robox\n'}
+[6.290572] (robox) StdoutLine: {'line': b'Installing lidar_node script to /home/sfw/project/robox_ws/install/robox/lib/robox\n'}
+[6.291122] (robox) StdoutLine: {'line': b'\n'}
+[6.294087] (robox) StdoutLine: {'line': b'Installed /home/sfw/project/robox_ws/build/robox\n'}
+[6.297161] (robox) StdoutLine: {'line': b'running symlink_data\n'}
+[6.298578] (robox) StdoutLine: {'line': b'symbolically linking /home/sfw/project/robox_ws/build/robox/launch/launch_robot.launch.py -> /home/sfw/project/robox_ws/install/robox/share/robox/launch\n'}
+[6.301974] (robox) StdoutLine: {'line': b'symbolically linking /home/sfw/project/robox_ws/build/robox/config/my_controllers.yaml -> /home/sfw/project/robox_ws/install/robox/share/robox/config\n'}
+[6.367686] (-) TimerEvent: {}
+[6.473185] (robox) CommandEnded: {'returncode': 0}
+[6.484506] (-) TimerEvent: {}
+[6.551438] (robox) JobEnded: {'identifier': 'robox', 'rc': 0}
+[6.555927] (-) EventReactorShutdown: {}

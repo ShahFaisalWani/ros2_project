@@ -1,0 +1,7 @@
+[console_scripts]
+drive_node = robox.drive_node:main
+dynamic_transform = robox.dynamic_transform:main
+encoder_node = robox.encoder_node:main
+key_input_node = robox.key_input_node:main
+lidar_node = robox.lidar_node:main
+

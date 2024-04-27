@@ -1,0 +1,23 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing robox.egg-info/PKG-INFO
+writing dependency_links to robox.egg-info/dependency_links.txt
+writing entry points to robox.egg-info/entry_points.txt
+writing requirements to robox.egg-info/requires.txt
+writing top-level names to robox.egg-info/top_level.txt
+reading manifest file 'robox.egg-info/SOURCES.txt'
+writing manifest file 'robox.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages/robox.egg-link (link to .)
+Installing drive_node script to /home/sfw/project/robox_ws/install/robox/lib/robox
+Installing dynamic_transform script to /home/sfw/project/robox_ws/install/robox/lib/robox
+Installing encoder_node script to /home/sfw/project/robox_ws/install/robox/lib/robox
+Installing key_input_node script to /home/sfw/project/robox_ws/install/robox/lib/robox
+Installing lidar_node script to /home/sfw/project/robox_ws/install/robox/lib/robox
+
+Installed /home/sfw/project/robox_ws/build/robox
+running symlink_data
+symbolically linking /home/sfw/project/robox_ws/build/robox/launch/slam.launch.py -> /home/sfw/project/robox_ws/install/robox/share/robox/launch
+symbolically linking /home/sfw/project/robox_ws/build/robox/launch/slam.launch.yaml -> /home/sfw/project/robox_ws/install/robox/share/robox/launch

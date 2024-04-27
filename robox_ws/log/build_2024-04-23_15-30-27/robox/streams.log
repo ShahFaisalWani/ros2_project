@@ -1,0 +1,46 @@
+[3.941s] Invoking command in '/home/sfw/project/robox_ws/build/robox': PYTHONPATH=/home/sfw/project/robox_ws/build/robox/prefix_override:/home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/sfw/project/robox_ws/build/robox/build
+[5.250s] running develop
+[5.262s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.262s]   warnings.warn(
+[6.221s] Removing /home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages/robox.egg-link (link to .)
+[6.386s] Invoked command in '/home/sfw/project/robox_ws/build/robox' returned '0': PYTHONPATH=/home/sfw/project/robox_ws/build/robox/prefix_override:/home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/sfw/project/robox_ws/build/robox/build
+[6.388s] Invoking command in '/home/sfw/project/robox_ws/src/robox': PYTHONPATH=/home/sfw/project/robox_ws/build/robox/prefix_override:/home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robox build --build-base /home/sfw/project/robox_ws/build/robox/build install --record /home/sfw/project/robox_ws/build/robox/install.log --single-version-externally-managed install_data --force
+[7.831s] running egg_info
+[7.836s] writing ../../build/robox/robox.egg-info/PKG-INFO
+[7.843s] writing dependency_links to ../../build/robox/robox.egg-info/dependency_links.txt
+[7.846s] writing entry points to ../../build/robox/robox.egg-info/entry_points.txt
+[7.847s] writing requirements to ../../build/robox/robox.egg-info/requires.txt
+[7.848s] writing top-level names to ../../build/robox/robox.egg-info/top_level.txt
+[7.883s] reading manifest file '../../build/robox/robox.egg-info/SOURCES.txt'
+[7.898s] writing manifest file '../../build/robox/robox.egg-info/SOURCES.txt'
+[7.904s] running build
+[7.919s] running build_py
+[7.920s] running install
+[7.923s] running install_lib
+[7.935s] creating /home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages/robox
+[7.936s] copying /home/sfw/project/robox_ws/build/robox/build/lib/robox/key_input_node.py -> /home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages/robox
+[7.936s] copying /home/sfw/project/robox_ws/build/robox/build/lib/robox/lidar_node.py -> /home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages/robox
+[7.937s] copying /home/sfw/project/robox_ws/build/robox/build/lib/robox/drive_node.py -> /home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages/robox
+[7.955s] copying /home/sfw/project/robox_ws/build/robox/build/lib/robox/dynamic_transform.py -> /home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages/robox
+[7.961s] copying /home/sfw/project/robox_ws/build/robox/build/lib/robox/encoder_node.py -> /home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages/robox
+[7.970s] copying /home/sfw/project/robox_ws/build/robox/build/lib/robox/__init__.py -> /home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages/robox
+[7.974s] byte-compiling /home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages/robox/key_input_node.py to key_input_node.cpython-310.pyc
+[7.977s] byte-compiling /home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages/robox/lidar_node.py to lidar_node.cpython-310.pyc
+[7.978s] byte-compiling /home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages/robox/drive_node.py to drive_node.cpython-310.pyc
+[7.986s] byte-compiling /home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages/robox/dynamic_transform.py to dynamic_transform.cpython-310.pyc
+[7.995s] byte-compiling /home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages/robox/encoder_node.py to encoder_node.cpython-310.pyc
+[7.996s] byte-compiling /home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages/robox/__init__.py to __init__.cpython-310.pyc
+[7.997s] running install_data
+[8.005s] copying resource/robox -> /home/sfw/project/robox_ws/install/robox/share/ament_index/resource_index/packages
+[8.007s] copying package.xml -> /home/sfw/project/robox_ws/install/robox/share/robox
+[8.008s] copying config/mapper_params_online_async.yaml -> /home/sfw/project/robox_ws/install/robox/share/robox/config
+[8.009s] copying config/joystick.yaml -> /home/sfw/project/robox_ws/install/robox/share/robox/config
+[8.010s] running install_egg_info
+[8.014s] Copying ../../build/robox/robox.egg-info to /home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages/robox-0.0.0-py3.10.egg-info
+[8.030s] running install_scripts
+[8.251s] Installing drive_node script to /home/sfw/project/robox_ws/install/robox/lib/robox
+[8.254s] Installing encoder_node script to /home/sfw/project/robox_ws/install/robox/lib/robox
+[8.269s] Installing key_input_node script to /home/sfw/project/robox_ws/install/robox/lib/robox
+[8.275s] Installing lidar_node script to /home/sfw/project/robox_ws/install/robox/lib/robox
+[8.280s] writing list of installed files to '/home/sfw/project/robox_ws/build/robox/install.log'
+[8.505s] Invoked command in '/home/sfw/project/robox_ws/src/robox' returned '0': PYTHONPATH=/home/sfw/project/robox_ws/build/robox/prefix_override:/home/sfw/project/robox_ws/install/robox/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robox build --build-base /home/sfw/project/robox_ws/build/robox/build install --record /home/sfw/project/robox_ws/build/robox/install.log --single-version-externally-managed install_data --force
