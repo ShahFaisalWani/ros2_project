@@ -1,9 +1,0 @@
-source;share/robox/hook/pythonpath.ps1
-source;share/robox/hook/pythonpath.dsv
-source;share/robox/hook/pythonpath.sh
-source;share/robox/hook/ament_prefix_path.ps1
-source;share/robox/hook/ament_prefix_path.dsv
-source;share/robox/hook/ament_prefix_path.sh
-source;../../build/robox/share/robox/hook/pythonpath_develop.ps1
-source;../../build/robox/share/robox/hook/pythonpath_develop.dsv
-source;../../build/robox/share/robox/hook/pythonpath_develop.sh
