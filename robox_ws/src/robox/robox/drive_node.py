@@ -117,7 +117,8 @@ class DriveNode(Node):
         super().__init__("drive_node")
         self.get_logger().info("Drive Node Initialized")
         self.setup_gpio()
-        self.subscription = self.create_subscription(Twist, 'cmd_vel_joy', self.twist_callback, 10)
+        self.subscription = self.create_subscription(Twist, 'cmd_vel', self.twist_callback, 10)
+        # self.subscription = self.create_subscription(Twist, 'cmd_vel_joy', self.twist_callback, 10)
     
     def twist_callback(self, msg):
         linear_speed = msg.linear.x

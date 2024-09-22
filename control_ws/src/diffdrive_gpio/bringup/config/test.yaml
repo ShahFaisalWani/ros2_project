@@ -1,0 +1,13 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 50  # Frequency at which controllers are updated
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    diff_drive_controller:
+      type: diff_drive_controller/DiffDriveController
+      left_wheel_names: ["left_wheel_joint"]
+      right_wheel_names: ["right_wheel_joint"]
+      linear.x.has_velocity_limits: true
+      linear.x.max_velocity: 2.0
+      angular.z.has_velocity_limits: true
+      angular.z.max_velocity: 2.0

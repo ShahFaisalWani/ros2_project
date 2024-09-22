@@ -1,1 +1,0 @@
-/home/sfw/project/robox_ws/src/robox/launch/robox.launch.py
