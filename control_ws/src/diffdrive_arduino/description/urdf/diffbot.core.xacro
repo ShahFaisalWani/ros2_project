@@ -1,24 +1,23 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-    <xacro:include filename="inertial_macros.xacro"/>
+    <xacro:include filename="$(find diffdrive_arduino)/urdf/inertial_macros.xacro" />
 
     <!-- Updated Parameters based on provided robot specifications -->
-    <xacro:property name="chassis_length" value="0.245"/> <!-- Body length 24.5cm -->
-    <xacro:property name="chassis_width" value="0.145"/> <!-- Body width 14.5cm -->
+    <xacro:property name="chassis_length" value="0.245"/>
+    <xacro:property name="chassis_width" value="0.145"/>
     <xacro:property name="chassis_height" value="0.075"/> <!-- Ground to robot top -->
-    <xacro:property name="chassis_mass" value="1.3"/> <!-- Updated chassis mass -->
-    <xacro:property name="wheel_radius" value="0.035"/>  <!-- Wheel radius: half of 7cm diameter -->
-    <xacro:property name="wheel_thickness" value="0.027"/> <!-- Wheel thickness 2.7cm -->
+    <xacro:property name="chassis_mass" value="1.045"/> <!-- Updated chassis mass -->
+    <xacro:property name="wheel_radius" value="0.0325"/>  <!-- Wheel radius: half of 6.5cm diameter -->
+    <xacro:property name="wheel_thickness" value="0.0275"/> <!-- Wheel thickness 2.75cm -->
     <xacro:property name="wheel_mass" value="0.06"/> <!-- Updated wheel mass for each wheel -->
-    <xacro:property name="wheel_offset_x" value="${chassis_length - 0.08}"/> <!-- Main wheels: 8cm from the front -->
-    <xacro:property name="wheel_offset_y" value="${chassis_width/2 + wheel_thickness}"/> <!-- Half of chassis_width (0.145/2) -->
-    <xacro:property name="wheel_offset_z" value="${wheel_radius - caster_wheel_radius}"/>
+    <xacro:property name="wheel_offset_x" value="0.0975"/> <!-- Main wheels: 7.5cm from the back -->
+    <xacro:property name="wheel_offset_y" value="0.0725"/> <!-- Half of chassis_width (0.145/2) -->
+    <xacro:property name="wheel_offset_z" value="0.01"/>
     <xacro:property name="caster_wheel_radius" value="0.005"/> <!-- Caster wheel radius: 1cm diameter -->
     <xacro:property name="caster_wheel_mass" value="0.01"/> <!-- Very light caster wheel -->
     <xacro:property name="caster_wheel_offset_x" value="0.03"/> <!-- Caster wheel: 3cm from the front -->
     <xacro:property name="caster_wheel_offset_z" value="${wheel_offset_z - wheel_radius + caster_wheel_radius}"/>
-
 
     <!-- Materials for visualization -->
     <material name="white">

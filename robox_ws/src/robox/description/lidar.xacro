@@ -4,13 +4,13 @@
     <joint name="laser_joint" type="fixed">
         <parent link="chassis"/>
         <child link="laser_frame"/>
-        <origin xyz="0.122 0 0.145" rpy="0 0 0"/> <!-- Adjusted according to ground to LiDAR top: 14.5cm -->
+        <origin xyz="0.185 0 0.12" rpy="0 0 0"/> <!-- Adjusted according to ground to LiDAR top: 14.5cm -->
     </joint>
 
     <link name="laser_frame">
         <visual>
             <geometry>
-                <cylinder radius="0.05" length="0.04"/>  <!-- Approximate size of LiDAR -->
+                <cylinder radius="0.04" length="0.03"/>  <!-- Approximate size of LiDAR -->
             </geometry>
             <material name="black"/>
         </visual>
@@ -23,11 +23,10 @@
         </visual>
         <collision>
             <geometry>
-                <cylinder radius="0.05" length="0.04"/>
+                <cylinder radius="0.04" length="0.04"/>
             </geometry>
-        </collision>
-        <!-- LiDAR inertial properties -->
-        <xacro:inertial_cylinder mass="0.125" length="0.04" radius="0.05"> <!-- Updated mass for LiDAR -->
+        </collision>        
+        <xacro:inertial_cylinder mass="0.125" length="0.04" radius="0.04"> <!-- Updated mass for LiDAR -->
             <origin xyz="0 0 0" rpy="0 0 0"/>
         </xacro:inertial_cylinder>
     </link>

@@ -1,11 +1,11 @@
 launch:
 - include:
-    file: "$(find-pkg-share robox)/launch/launch_robot.launch.py"
+    file: "$(find-pkg-share robox)/launch/controller.launch.py"
+# - include:
+#     file: "$(find-pkg-share robox)/launch/launch_robot_old.launch.py"
 - include:
-    file: "$(find-pkg-share robox)/launch/rsp.launch.py"
-- include:
-    file: "$(find-pkg-share hls_lfcd_lds_driver)/launch/hlds_laser.launch.py"
-- include:
-    file: "$(find-pkg-share nav2_bringup)/launch/navigation_launch.py"
-- include:
-    file: "$(find-pkg-share robox)/launch/slam.launch.py"
+    file: "$(find-pkg-share robox)/launch/lidar.launch.py"
+# - include:
+#     file: "$(find-pkg-share nav2_bringup)/launch/navigation_launch.py"
+# - include:
+#     file: "$(find-pkg-share robox)/launch/slam.launch.py"

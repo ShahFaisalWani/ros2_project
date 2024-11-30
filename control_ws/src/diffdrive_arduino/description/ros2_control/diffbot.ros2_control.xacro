@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- <xacro:macro name="diffbot_ros2_control" params="name"> -->
+
+  <ros2_control name="diffbot_ros2_control" type="system">
+    <hardware>
+      <plugin>diffdrive_arduino/DiffDriveArduinoHardware</plugin>
+      <param name="left_wheel_name">left_wheel_joint</param>
+      <param name="right_wheel_name">right_wheel_joint</param>
+
+      <param name="gpio_left_encoder_a">5</param>
+      <param name="gpio_left_encoder_b">6</param>
+      <param name="gpio_right_encoder_a">20</param>
+      <param name="gpio_right_encoder_b">21</param>
+
+      <param name="gpio_left_motor_1">22</param>       <!-- PWM pin for left motor -->
+      <param name="gpio_left_motor_2">27</param>       <!-- Direction pin for left motor -->
+      <param name="gpio_right_motor_1">23</param>      <!-- PWM pin for right motor -->
+      <param name="gpio_right_motor_2">24</param> 
+      <param name="gpio_left_enable">17</param> 
+      <param name="gpio_right_enable">25</param> 
+
+      <param name="enc_counts_per_rev">999</param>
+    </hardware>
+    <joint name="left_wheel_joint">
+      <command_interface name="velocity"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="right_wheel_joint">
+      <command_interface name="velocity"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+  </ros2_control>
+
+  <!-- </xacro:macro> -->
+
+</robot>

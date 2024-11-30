@@ -6,8 +6,8 @@ import xacro
 
 
 def generate_launch_description():
-    pkg_path = os.path.join(get_package_share_directory('robox'))
-    xacro_file = os.path.join(pkg_path,'description','robox.urdf.xacro')
+    pkg_path = os.path.join(get_package_share_directory('diffdrive_arduino'))
+    xacro_file = os.path.join(pkg_path,'urdf','diffbot.urdf.xacro')
     robot_description_config = xacro.process_file(xacro_file)
     
     params = {'robot_description': robot_description_config.toxml()}
@@ -18,4 +18,6 @@ def generate_launch_description():
         parameters=[params]
     )
 
-    return LaunchDescription([node_robot_state_publisher])
+    return LaunchDescription([
+        node_robot_state_publisher,
+    ])
